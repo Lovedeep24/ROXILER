@@ -1,0 +1,10 @@
+.App h1{
+    padding-top: 2rem;
+    /* border: 2px solid #333; */
+    height: 4rem;
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+}

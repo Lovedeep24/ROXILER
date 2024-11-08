@@ -1,0 +1,62 @@
+/* FilterPanel.module.css */
+.filterPanelContainer {
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filterPanelItem {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .filterPanelLabel {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .filterPanelSelect,
+  .filterPanelInput,
+  .filterPanelButton {
+    margin-left: .5rem;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .filterPanelSelect:focus,
+  .filterPanelInput:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .filterPanelButton {
+    margin-left: .5rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+
+  .filterPanelButton:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .filterPanelButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .filterPanelInput {
+    margin-left: 1rem;
+    width: 400px;
+  }
+  
+  .filterPanelSelect {
+    width: 120px;
+  }
+  

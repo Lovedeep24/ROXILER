@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.mainStats {
+    margin-top: 4rem;
+    height: 30rem;
+    display: flex;
+   border: 2px solid blue; 
+}
+.BarChart {
+    width: 65%;
+    border: 2px solid red;
+}
+.tableArea{
+    width: 35%;
+    border: 2px solid black;
+}
